@@ -1,4 +1,4 @@
-import { Global, css } from "@emotion/react"
+import { Global, css } from '@emotion/react'
 
 const styles = css`
   * {
@@ -8,16 +8,16 @@ const styles = css`
   }
 
   :root {
-    --fontNormal:  sans-serif;
-    --fontCursive:  cursive;
-    --padding: clamp(2rem,4vw,4rem);
+    --fontNormal: sans-serif;
+    --fontCursive: cursive;
+    --padding: clamp(2rem, 4vw, 4rem);
 
     --colorPrimary: #000;
     --colorSecondary: #000;
     --colorTertiary: #000;
-    --accentColor:#000
-
+    --accentColor: #000;
   }
+
   body {
     font-family: var(--fontNormal);
   }
